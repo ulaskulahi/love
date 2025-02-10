@@ -23,12 +23,12 @@ const questions: Question[] = [
     correctAnswer: "Ulaş",
   },
   {
-    question: "Ulaş&apos;ın en sevdiği renk?",
-    options: ["Yeşil", "Mavi", "Gamze&apos;nin gözlerinin rengi", "Sarı"],
-    correctAnswer: "Gamze&apos;nin gözlerinin rengi",
+    question: "Ulaş'ın en sevdiği renk?",
+    options: ["Yeşil", "Mavi", "Gamze'nin gözlerinin rengi", "Sarı"],
+    correctAnswer: "Gamze'nin gözlerinin rengi",
   },
   {
-    question: "Ulaş&apos;ın anneannesinin adı?",
+    question: "Ulaş'ın anneannesinin adı?",
     options: ["Cevdet", "Emel", "Evladiyelik", "Emine"],
     correctAnswer: "Emine",
   },
@@ -39,7 +39,7 @@ const questions: Question[] = [
     correctAnswer: "Gamze",
   },
   {
-    question: "Ulaş Hacettepe&apos;de hangi bölümü okuyordu?",
+    question: "Ulaş Hacettepe'de hangi bölümü okuyordu?",
     options: [
       "İngiliz Dili ve Edebiyatı",
       "Alman Dili ve Edebiyatı",
@@ -49,7 +49,7 @@ const questions: Question[] = [
     correctAnswer: "Alman Dili ve Edebiyatı",
   },
   {
-    question: "Ulaş&apos;ın Gamze&apos;nin en sevdiği özelliği hangisi?",
+    question: "Ulaş'ın Gamze'nin en sevdiği özelliği hangisi?",
     options: [
       "Çok güzel ve tatlı olması",
       "Dürüst ve anlayışlı olması",
@@ -60,7 +60,7 @@ const questions: Question[] = [
     correctAnswer: "Hepsi",
   },
   {
-    question: "Ulaş&apos;ın telefon numarasi nedir?",
+    question: "Ulaş'ın telefon numarası nedir?",
     options: [
       "+1-385-323-2298",
       "+1-986-232-2298",
