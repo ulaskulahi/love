@@ -7,6 +7,7 @@ import Numpad from "@/components/Numpad";
 import Modal from "@/components/Modal";
 import Time from "@/components/Time";
 import PhotoSlider from "@/components/PhotoSlider";
+import SeeEachOther from "@/components/SeeEachOther";
 
 export default function Home() {
   const [isAuthorized, setIsAuthorized] = useState<boolean | null>(null);
@@ -58,6 +59,10 @@ export default function Home() {
           {/* Second row - 1 box spanning full width */}
           <div className=" col-span-2 shadow-md rounded-lg">
             <PhotoSlider />
+          </div>
+          <div className="bg-mistyRose text-cusRose tablet:col-span-2 rounded-lg p-4 col-span-2 shadow-md">
+            <h1 className="text-xl">We will see each other in</h1>
+            <SeeEachOther />
           </div>
         </div>
       )}
