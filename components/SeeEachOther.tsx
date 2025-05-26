@@ -10,7 +10,7 @@ type TimeDifference = {
 
 export default function Time() {
   const calculateTimeDiff = (): TimeDifference => {
-    const targetDate = new Date("2025-07-30T00:00:00");
+    const targetDate = new Date("2025-06-17T17:50:00");
     const now = new Date();
     const diffMiliSeconds = targetDate.getTime() - now.getTime();
 
